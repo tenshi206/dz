@@ -2,7 +2,7 @@ a=int(input("введите степендию: " ))
 b=int(input("введите расходы: " ))
 n=int(input("прожить месяцев: " ))
 s=0
-for i in range (0,n):
+for i in range (0,n+1):
     s+=(b-a)*n
     if n%2==0:
         print (f"s+=(b-a)*n*1.03")
